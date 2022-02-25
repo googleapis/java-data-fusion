@@ -22,20 +22,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-data-fusion</artifactId>
-  <version>0.3.3</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-data-fusion:0.3.3'
+implementation 'com.google.cloud:google-cloud-data-fusion:1.0.1'
 ```
 
 If you are using SBT, add this to your dependencies
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-data-fusion" % "0.3.3"
+libraryDependencies += "com.google.cloud" % "google-cloud-data-fusion" % "1.0.1"
 ```
 
 ## Authentication
@@ -175,7 +175,7 @@ Java is a registered trademark of Oracle and/or its affiliates.
 [kokoro-badge-link-4]: http://storage.googleapis.com/cloud-devrel-public/java/badges/java-data-fusion/java8-win.html
 [kokoro-badge-image-5]: http://storage.googleapis.com/cloud-devrel-public/java/badges/java-data-fusion/java11.svg
 [kokoro-badge-link-5]: http://storage.googleapis.com/cloud-devrel-public/java/badges/java-data-fusion/java11.html
-[stability-image]: https://img.shields.io/badge/stability-beta-yellow
+[stability-image]: https://img.shields.io/badge/stability-preview-yellow
 [maven-version-image]: https://img.shields.io/maven-central/v/com.google.cloud/google-cloud-data-fusion.svg
 [maven-version-link]: https://search.maven.org/search?q=g:com.google.cloud%20AND%20a:google-cloud-data-fusion&core=gav
 [authentication]: https://github.com/googleapis/google-cloud-java#authentication
