@@ -30,5 +30,6 @@ deep-copy-regex:
 - source: "/google/cloud/datafusion/(v.*)/.*-java/grpc-google-.*/src"
   dest: "/owl-bot-staging/$1/grpc-google-cloud-data-fusion-$1/src"
 - source: "/google/cloud/datafusion/(v.*)/.*-java/gapic-google-.*/src"
-  dest: "/owl-bot-staging/$1/google-cloud-data-fusion/src"- source: "/google/cloud/java-datafusion/(v.*)/.*-java/samples/snippets/generated"
+  dest: "/owl-bot-staging/$1/google-cloud-data-fusion/src"
+- source: "/google/cloud/java-datafusion/(v.*)/.*-java/samples/snippets/generated"
   dest: "/owl-bot-staging/$1/samples/snippets/generated"
