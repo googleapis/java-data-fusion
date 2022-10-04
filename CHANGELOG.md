@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/googleapis/java-data-fusion/compare/v1.3.4...v1.3.5) (2022-10-04)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([0b31d62](https://github.com/googleapis/java-data-fusion/commit/0b31d625b30f954793f4fef1bbaa0d663191739a))
+
 ## [1.3.4](https://github.com/googleapis/java-data-fusion/compare/v1.3.3...v1.3.4) (2022-10-03)
 
 
