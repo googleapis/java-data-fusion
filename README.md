@@ -9,6 +9,13 @@ Java idiomatic client for [Cloud Data Fusion][product-docs].
 - [Client Library Documentation][javadocs]
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-data-fusion](
+https://github.com/googleapis/google-cloud-java/tree/main/java-data-fusion).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.cloud:google-cloud-data-fusion`) remain the same.
+
 ## Quickstart
 
 
@@ -19,20 +26,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-data-fusion</artifactId>
-  <version>1.3.5</version>
+  <version>1.5.0</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-data-fusion:1.3.5'
+implementation 'com.google.cloud:google-cloud-data-fusion:1.5.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-data-fusion" % "1.3.5"
+libraryDependencies += "com.google.cloud" % "google-cloud-data-fusion" % "1.5.0"
 ```
 
 ## Authentication
